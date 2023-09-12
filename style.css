@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+*::selection{
+    background-color: black;
+    color:white
+}
+
+
+/* ############################### Page 1 #################################### */
+
+.video1{
+    height: 100vh;
+    transform: skewX(160deg);
+    margin-left: -200px;
+    position: absolute;
+}
+
+@media(max-width:650px){
+    .video1{
+        margin-left: -800px;
+        height:70vh;
+        transform: skewX(160deg);
+    }
+}
+
+.para1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    font-size: 30px;
+    position:relative;
+    padding-top:13%;
+    padding-left:3%;
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    line-height: 251%;
+}
+
+@media(max-width:650px){
+    .para1{
+        font-size: 20px;
+        padding-top:210px;
+        padding-left:205px
+    }
+}
+
+.box1{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    position:absolute;
+    top:250px;
+    right:30px;
+    align-items: end;
+}
+
+.box11{
+    z-index:4;
+}
+
+.box11 img{
+    height: 210px;
+    margin-bottom: 20px;
+}
+
+.box12{
+    text-align: right;
+    width:420px;
+    line-height: 26px;
+    padding-right:50px;}
+
+.box12 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    align-items: right;
+    
+}
+
+.name{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    background-color: transparent;
+    
+}
+
+
+
+.name{
+    color:#620d66;
+    transition:color 1s
+}
+
+.naya{
+    padding-left:25px
+}
+
+.fg{
+    margin-left:-40px
+}
+
+.logo{
+    position:absolute;
+    top:20px;
+    right:85px;
+    z-index: 3;
+    /* font-family: 'Press Start 2P', cursive;
+    font-size: 50px; */
+    width: 8.49%;
+}
+
+
