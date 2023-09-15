@@ -24,14 +24,6 @@
     position: absolute;
 }
 
-@media(max-width:650px){
-    .video1{
-        margin-left: -800px;
-        height:70vh;
-        transform: skewX(160deg);
-    }
-}
-
 .para1{
     font-family: 'Press Start 2P', cursive;
     text-align: left;
@@ -42,14 +34,6 @@
     backdrop-filter: blur(20px);
     height: 100vh;
     line-height: 251%;
-}
-
-@media(max-width:650px){
-    .para1{
-        font-size: 20px;
-        padding-top:210px;
-        padding-left:205px
-    }
 }
 
 .box1{
@@ -113,8 +97,6 @@
     top:20px;
     right:85px;
     z-index: 3;
-    /* font-family: 'Press Start 2P', cursive;
-    font-size: 50px; */
     width: 8.49%;
 }
 
@@ -263,4 +245,90 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 62px;
+}
+
+
+
+/* ########################## Media Queries ############################ */
+
+@media(max-width:650px){
+    .video1{
+        margin-left: -800px;
+        height:70vh;
+        transform: skewX(160deg);
+    }
+    .para1{
+        backdrop-filter: blur(0px);
+    }
+    .logo{
+        display:none
+    }
+    .para1{
+        font-size: 20px;
+        padding-top:200px;
+        padding-left:20px
+    }
+    .box1{
+        padding-top:430px;
+        align-items: flex-start;
+        padding-left:150px
+    }
+    .box11 img{
+        height:160px;
+    }
+    .box12{
+        text-align: center;
+        width:96.8vw;
+    }
+    .box12 p{
+        padding-left:32.4px;
+        margin-right:-8px
+    }
+    .empty{
+        display: none;
+    }
+    .box2{
+        padding-top:270px
+    }
+    .box21 img{
+        width:270px;
+        margin-left:-35px;
+        padding-bottom:28px
+    }
+    .box22{
+        width:100%
+    }
+    .box3{
+        flex-direction: column;
+        margin-top: -120px;
+    }
+    .box31{
+        width:100%;
+        margin-bottom:-120px
+    }
+    .box32{
+        width:100%;
+    }
+    .q1{
+        padding-left:65px;
+        font-size: 20px;
+    }
+    .box41 img{
+        height:100px;
+        width:100px;
+        margin-left:-70px
+    } 
+    .old{
+        display:none
+    }
+    .a1{
+        padding:5px 41.8px
+    }
+    .box41 a{
+        margin-left:-60px
+    }
+    .box42 p{
+        font-size: 20px;
+        line-height: 34px;
+    }
 }
